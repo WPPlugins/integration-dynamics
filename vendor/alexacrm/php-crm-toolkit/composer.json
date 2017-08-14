@@ -1,0 +1,25 @@
+{
+    "name": "alexacrm/php-crm-toolkit",
+    "description": "PHP Toolkit for Microsoft Dynamics CRM",
+    "keywords": [ "php", "dynamics crm", "crm", "sdk" ],
+    "type": "library",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "AlexaCRM",
+            "email": "info@alexacrm.com"
+        }
+    ],
+    "require": {
+        "ext-soap": "*",
+        "psr/log": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlexaCRM\\CRMToolkit\\": "src/"
+        }
+    }
+}
